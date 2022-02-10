@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap");
+/* font-family: 'Red Rose', cursive; */
+@font-face {
+	font-family: "Mogan";
+	src: url("../fonts/Mogan-Regular.woff2") format("woff2"), url("../fonts/Mogan-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 15px;
+}
+
+body {
+	font-family: "Mogan", cursive;
+	font-size: 20px;
+	line-height: 120%;
+}
+
+.title {
+	font-size: 50px;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: 10px 10px 15px rgb(250, 6, 6), 6px 4px 8px rgba(7, 7, 7, 0.274);
+	margin: 20px 0 20px 0;
+}
+
+.menu {
+	color: red;
+	text-decoration: underline;
+	margin: 20px 0 20px 0;
+}
+
+h2 {
+	font-family: "Red Rose", cursive;
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	color: rgba(226, 95, 34, 0.911);
+	margin-bottom: 20px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+.start-text {
+	max-width: 900px;
+	margin: 0 auto 20px auto;
+	text-transform: uppercase;
+}
+
+.text-green {
+	max-width: 50%;
+	margin: 0 auto 20px 0;
+	color: green;
+	display: inline-block;
+	text-indent: 10px;
+}
+
+img {
+	width: 400px;
+	height: 300px;
+	margin: 0 auto 20px 200px;
+}
+
+.scroll-text {
+	overflow: scroll;
+	color: yellowgreen;
+	max-width: 900px;
+	margin: 0 auto 20px auto;
+	max-height: 500px;
+}
+
+.textr {
+	margin: 0 0 0 auto;
+	text-align: right;
+	text-decoration: line-through;
+	width: 50%;
+	color: rgb(61, 61, 209);
+}
+
+.finish p {
+	padding: 20px;
+	max-width: 400px;
+	text-indent: 15px;
+	text-transform: capitalize;
+	max-height: 400px;
+}
+
+.finish2 {
+	margin: 20px auto 20px 300px;
+	color: rgb(37, 201, 146);
+	overflow: auto;
+}
+
+.finish3 {
+	margin: 0 0 0 auto;
+	color: rgb(113, 236, 236);
+	text-align: right;
+	text-decoration: overline;
+}
